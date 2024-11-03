@@ -28,7 +28,7 @@ function App() {
   
   return (
     <RouterProvider router={router}>
-      <Navbar /> {/* Make sure Navbar is inside RouterProvider */}
+      <Navbar /> 
       <Canvas>
         <ambientLight />
         <OrbitControls />
